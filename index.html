@@ -207,14 +207,22 @@
                     </a>
                   </span>
                   <!-- Hugging Face Space -->
+                  <style>
+                    .link-block a.button.is-dark.disabled {
+                      background-color: #4a4a4a;
+                      opacity: 0.8;
+                      cursor: not-allowed;
+                      pointer-events: none;
+                    }
+                  </style>
                   <span class="link-block">
                     <a
                       href="https://huggingface.co/spaces/prs-eth/rollingdepth"
                       rel="noopener noreferrer"
-                      class="external-link button is-normal is-rounded is-dark"
+                      class="external-link button is-normal is-rounded is-dark disabled"
                     >
-                      <span class="icon"> &#129303; </span>
-                      <span>Demo</span>
+                      <span class="icon">&#129303;</span>
+                      <span>Demo (coming soon)</span>
                     </a>
                   </span>
                   <!--              &lt;!&ndash; Colab Link. &ndash;&gt;-->
@@ -627,7 +635,7 @@
                 "./video/comparison_in-the-wild/4a94edce_compressed.mp4",
                 "./video/comparison_in-the-wild/8f23d65c_compressed.mp4",
                 "./video/comparison_in-the-wild/horse_compressed.mp4",
-                "./video/comparison_in-the-wild/M9SFmxyAlrc-CceT_compressed.mp4"
+                "./video/comparison_in-the-wild/M9SFmxyAlrc-CceT_compressed.mp4",
               ];
               const player = $("#myVideo_a2")[0];
               const button = $("#page_a2 img");

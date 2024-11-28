@@ -291,12 +291,24 @@
           <h2 class="title is-3">In-the-wild Gallery</h2>
           <!-- colorbar -->
           <div class="container is-max-desktop has-text-centered">
+            <style>
+              .colorbar-img {
+                height: 15px;
+                width: 250px;
+              }
+              @media (max-width: 750px) {
+                /* 750px because 300/0.4 = 750 */
+                .colorbar-img {
+                  width: 150px;
+                }
+              }
+            </style>
             <div>
               <span>near</span>
               <img
                 src="./images/colorbar.png"
                 alt="Depth colorbar"
-                style="height: 15px"
+                class="colorbar-img"
               />
               <span>far</span>
             </div>
@@ -520,12 +532,24 @@
           </h2>
           <!-- colorbar -->
           <!-- <div class="container is-max-desktop has-text-centered">
+            <style>
+              .colorbar-img {
+                height: 15px;
+                width: 250px;
+              }
+              @media (max-width: 750px) {
+                /* 750px because 300/0.4 = 750 */
+                .colorbar-img {
+                  width: 150px;
+                }
+              }
+            </style>
             <div>
               <span>near</span>
               <img
                 src="./images/colorbar.png"
                 alt="Depth colorbar"
-                style="height: 15px"
+                class="colorbar-img"
               />
               <span>far</span>
             </div>
@@ -599,12 +623,24 @@
           </h2>
           <!-- colorbar -->
           <div class="container is-max-desktop has-text-centered">
+            <style>
+              .colorbar-img {
+                height: 15px;
+                width: 250px;
+              }
+              @media (max-width: 750px) {
+                /* 750px because 300/0.4 = 750 */
+                .colorbar-img {
+                  width: 150px;
+                }
+              }
+            </style>
             <div>
               <span>near</span>
               <img
                 src="./images/colorbar.png"
                 alt="Depth colorbar"
-                style="height: 15px"
+                class="colorbar-img"
               />
               <span>far</span>
             </div>

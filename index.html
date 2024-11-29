@@ -531,7 +531,7 @@
             Qualitative comparison on labeled datasets (coming soon)
           </h2>
           <!-- colorbar -->
-          <!-- <div class="container is-max-desktop has-text-centered">
+          <div class="container is-max-desktop has-text-centered">
             <style>
               .colorbar-img {
                 height: 15px;
@@ -553,28 +553,45 @@
               />
               <span>far</span>
             </div>
-          </div> -->
+          </div>
           <!-- For a new group, change all `_a3` to `_a3` -->
-          <!-- <video
+          <video
             id="myVideo_a3"
             muted
             autoplay="autoplay"
             loop="loop"
             width="100%"
             controls
-          ></video> -->
-          <!-- small circles, should correspond to number of videos -->
-          <!-- <div width="100%" class="pages" id="page_a3">
+          ></video>
+          <div width="100%" class="pages" id="page_a3">
             <img src="./images/arrow-left-round.svg" />
             <img src="./images/circle-small.svg" />
             <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
+            <img src="./images/circle-small.svg" />
             <img src="./images/arrow-right-round.svg" />
-          </div> -->
+          </div>
           <script>
             $(function () {
               let src = [
-                "./video/teaser_dog_rgbd2_compressed.mp4",
-                "./video/teaser_dog_rgbd2_compressed.mp4",
+                "./video/comparison_dataset/train^dancing_compressed.mp4",
+                "./video/comparison_dataset/train^scene_recording_20210910_S05_S06_0_ego2_compressed.mp4",
+                "./video/comparison_dataset/train^footlab_3rd_compressed.mp4",
+                "./video/comparison_dataset/train^seminar_h52_ego1_compressed.mp4",
+                "./video/comparison_dataset/scene0797_00_compressed.mp4",
+                "./video/comparison_dataset/scene0723_00_compressed.mp4",
+                "./video/comparison_dataset/scene0724_00_compressed.mp4",
+                "./video/comparison_dataset/scene0736_00_compressed.mp4",
+                "./video/comparison_dataset/scene0804_00_compressed.mp4",
+                "./video/comparison_dataset/xmas^xmas_shot1_compressed.mp4",
+                "./video/comparison_dataset/coffe_shop^coffe_shot1_compressed.mp4",
               ];
               const player = $("#myVideo_a3")[0];
               const button = $("#page_a3 img");

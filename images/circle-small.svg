@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 100">
   <circle 
-    cx="50" 
+    cx="40" 
     cy="50" 
     r="16" 
     fill="none" 
-    stroke="#404040"
-    stroke-width="3"
+    stroke="#909090"
+    stroke-width="5"
   />
 </svg>
